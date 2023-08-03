@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/gnome-applications.menu</MergeFile>
+	<Menu>
+		<Name>System Settings</Name>
+		<DirectoryDir>/home/renato/.local/share/desktop-directories</DirectoryDir>
+	</Menu>
+	<Menu>
+		<Name>Other</Name>
+		<DirectoryDir>/home/renato/.local/share/desktop-directories</DirectoryDir>
+		<Include>
+			<Filename>openbox.desktop</Filename>
+		</Include>
+		<AppDir>/home/renato/.local/share/applications</AppDir>
+	</Menu>
+	<Menu>
+		<Name>Accessories</Name>
+		<AppDir>/home/renato/.local/share/applications</AppDir>
+		<Include>
+			<Filename>org.gnome.Calculator.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>org.gnome.Evince.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>org.gnome.seahorse.Application.desktop</Filename>
+		</Include>
+	</Menu>
+	<Menu>
+		<Name>Internet</Name>
+		<Include>
+			<Filename>alacarte-made.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>alacarte-made-1.desktop</Filename>
+		</Include>
+		<Include>
+			<Filename>org.gnome.Shell.Extensions.GSConnect.desktop</Filename>
+		</Include>
+		<AppDir>/home/renato/.local/share/applications</AppDir>
+		<Include>
+			<Filename>alacarte-made-2.desktop</Filename>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>brave-browser.desktop</Filename>
+			<Filename>google-chrome.desktop</Filename>
+			<Filename>microsoft-edge.desktop</Filename>
+			<Filename>org.qbittorrent.qBittorrent.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+</Menu>

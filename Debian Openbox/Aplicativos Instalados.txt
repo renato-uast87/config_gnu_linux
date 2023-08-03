@@ -1,0 +1,14 @@
+zram_-tools
+# preload
+
+modifiquei:
+	    sudo vim /etc/fstab
+	    sudo vim /etc/initramfs-tools/conf.d/resume
+	    sudo update-initramfs -u && sudo update-grub
+	    sudo vim /etc/default/grub
+	    sudo os-prober
+
+
+default-jdk
+
+gnome-firmware

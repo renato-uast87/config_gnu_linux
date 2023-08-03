@@ -1,0 +1,19 @@
+# deb cdrom:[Debian GNU/Linux bookworm-DI-alpha2 _Bookworm_ - Official Alpha amd64 DVD Binary-1 with firmware 20230218-23:57]/ bookworm main non-free-firmware
+
+deb http://ftp.br.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+# deb-src http://ftp.br.debian.org/debian/ bookworm main non-free-firmware
+
+deb http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+# deb-src http://security.debian.org/debian-security bookworm-security main non-free-firmware
+
+deb http://ftp.br.debian.org/debian-security/ bookworm-security main contrib non-free non-free-firmware
+# deb-src http://deb.debian.org/debian-security/ bookworm-security main non-free-firmware
+
+deb http://ftp.br.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
+# deb-src http://deb.debian.org/debian bookworm-updates main non-free-firmware
+
+##### Backports
+deb http://deb.debian.org/debian bookworm-backports main contrib non-free non-free-firmware
+
+###### Adicionei
+deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
