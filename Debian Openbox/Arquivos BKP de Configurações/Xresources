@@ -1,0 +1,56 @@
+! special
+xterm*foreground:   #c5c8c6
+xterm*background:   0,0,0,0.426174
+xterm*cursorColor:  #c5c8c6
+
+! black
+xterm*color0:       #1d1f21
+xterm*color8:       #969896
+
+! red
+xterm*color1:       #cc6666
+xterm*color9:       #cc6666
+
+! green
+xterm*color2:       #b5bd68
+xterm*color10:      #b5bd68
+
+! yellow
+xterm*color3:       #f0c674
+xterm*color11:      #f0c674
+
+! blue
+xterm*color4:       #81a2be
+xterm*color12:      #81a2be
+
+! magenta
+xterm*color5:       #b294bb
+xterm*color13:      #b294bb
+
+! cyan
+xterm*color6:       #8abeb7
+xterm*color14:      #8abeb7
+
+! white
+xterm*color7:       #c5c8c6
+xterm*color15:      #ffffff
+
+! FONTE
+xterm*faceName: HackNerdFontMono-Regular.ttf
+xterm*faceSize: 15
+
+! BARRA DE ROLAMENTO
+xterm*scrollBar: false
+xterm*rightScrollBar: false
+xterm*saveLines: 1000
+
+! COPIAR E COLAR
+xterm*highlightSelection: true
+xterm*VT100.Translations:   #override\
+        Ctrl Shift <Key>v:   insert-selection(CLIPBOARD)\n\
+        Ctrl Shift <Key>c:   copy-selection(CLIPBOARD) 
+
+xterm*VT100.locale: false 
+xterm*VT100.utf8: true 
+xclient*Buttons.foreground: blue
+xclient*help.foreground: red  

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Menu-tint2
+Comment=Tint2 Openbox Menu 
+X-GNOME-FullName=Openbox Menu 
+GenericName=Menu 
+StartupNotify=true 
+Exec=xdotool key super+Escape
+Icon=/usr/share/icons/desktop-base/debian.svg 
+Terminal=false
+Categories=System;
